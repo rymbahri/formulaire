@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Babylonica&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  background-color: rgb(40, 40, 63);
+}
+form {
+  margin: 20px 20%;
+  height: 600px;
+  background-color: whitesmoke;
+}
+
+h2 {
+  font-family: "Babylonica", cursive;
+  /* font-family: "IBM Plex Sans Arabic", sans-serif; */
+  margin: 20px 20% auto;
+  padding: 20px 0 30px;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(33, 22, 43);
+}
+
+input,
+textarea,
+button,
+select {
+  border: none;
+  width: 55%;
+  height: 50px;
+  margin: 5px 0;
+  font-size: 15px;
+  font-family: cursive;
+}
+textarea {
+  height: 120px;
+}
+button {
+  font-size: 20px;
+  color: white;
+  background-color: rgb(74, 74, 100);
+  transition: 0.2s;
+}
+button:hover {
+  background-color: rgb(4, 4, 39);
+
+  cursor: pointer;
+}
